@@ -1,4 +1,4 @@
-mudule.exports = 
+module.exports = 
 {
   "development": {
     "username": "root",
