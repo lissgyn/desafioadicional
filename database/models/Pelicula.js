@@ -8,6 +8,11 @@ module.exports= function(sequelize,dataTypes){
             autoIncrements: true,
         },
         title: dataTypes.STRING,
+        rating: dataTypes.DECIMAL,
+        release_date: {
+            type: dataTypes.STRING,
+            defaultValue: "2020-01-01"
+        } 
     },
     {
         tableName:'movies',
